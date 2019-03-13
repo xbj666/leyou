@@ -17,7 +17,7 @@ import java.util.List;
 @Slf4j
 public class UploadService {
 
-    private static final List<String> ALLOW_TYPES = Arrays.asList("image/jpeg","image/png","image/bmp");
+    private static final List<String> ALLOW_TYPES = Arrays.asList("image/jpeg","image/png","image/bmp","image/jpg");
 
     public String uploadImage(MultipartFile file) {
         try {
